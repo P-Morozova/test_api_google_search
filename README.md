@@ -13,7 +13,7 @@ Expected result: response_code = 200
 
 Steps:
 
-- send a GET-request to https://www.google.ru/search?q=QA+AUtomation&newwindow=1&hl=ru&sxsrf=AJOqlzXogYV2iMIF4qa5moLZAI6mcl0zcg:1675750958871&source=hp&ei=Lu7hY-ObM7mDkdUPxKOc0Ao&iflsig=AK50M_UAAAAAY-H8PokuTeWpoPwPYeTLoEUonHqmbVa&ved=0ahUKEwjj6ojl4oL9AhW5QaQEHcQRB6oQ4dUDCAg&uact=5&oq=QA+AUtomation&gs_lcp=Cgdnd3Mtd2l6EAMyCwgAEIAEELEDEIMBMgoIABCABBAUEIcCMgsIABCABBCxAxCDATIKCAAQgAQQFBCHAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQ6gIQJzoECCMQJzoOCC4QgAQQsQMQxwEQ0QM6CAgAEIAEELEDOhEILhCABBCxAxCDARDHARDRAzoICC4QgAQQsQM6CwguEIAEEMcBENEDOgoILhCxAxDUAhBDOggIABCxAxCDAToLCC4QgAQQxwEQrwFQzQ9YlSNgnFJoA3AAeACAAesBiAGKFpIBBDItMTOYAQCgAQGwAQo&sclient=gws-wiz)
-- get response and make sure the title of the response matches "*YOUR SEARCH TEXT* - Поиск в Google"
+- send a GET-request to https://www.google.ru/search?q=QA+Automation&newwindow=1&hl=ru&sxsrf=AJOqlzXogYV2iMIF4qa5moLZAI6mcl0zcg:1675750958871&source=hp&ei=Lu7hY-ObM7mDkdUPxKOc0Ao&iflsig=AK50M_UAAAAAY-H8PokuTeWpoPwPYeTLoEUonHqmbVa&ved=0ahUKEwjj6ojl4oL9AhW5QaQEHcQRB6oQ4dUDCAg&uact=5&oq=QA+Automation&gs_lcp=Cgdnd3Mtd2l6EAMyCwgAEIAEELEDEIMBMgoIABCABBAUEIcCMgsIABCABBCxAxCDATIKCAAQgAQQFBCHAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQ6gIQJzoECCMQJzoOCC4QgAQQsQMQxwEQ0QM6CAgAEIAEELEDOhEILhCABBCxAxCDARDHARDRAzoICC4QgAQQsQM6CwguEIAEEMcBENEDOgoILhCxAxDUAhBDOggIABCxAxCDAToLCC4QgAQQxwEQrwFQzQ9YlSNgnFJoA3AAeACAAesBiAGKFpIBBDItMTOYAQCgAQGwAQo&sclient=gws-wiz
+- get response and make sure the title of the response matches "QA Automation - Поиск в Google", where QA Automation is search text 
 
-Expected result: title of response is equal to "*YOUR SEARCH TEXT* - Поиск в Google"
+Expected result: title of response is equal to "QA Automation - Поиск в Google"
